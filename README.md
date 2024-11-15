@@ -20,7 +20,7 @@ The streamlit can be seen on the link above and also accessing by the following 
 - **Streamlit code:**
 https://github.com/raquelcolares/Cancer_Classification/blob/main/streamlit/cancer-app.py
 
-- **Project:**
+- **Project Notebook:**
   https://github.com/raquelcolares/Cancer_Classification/tree/main/notebook
 
 - **Dataset:**
