@@ -4,6 +4,7 @@
     <img width="400" src="https://github.com/raquelcolares/Cancer_Classification/blob/main/cancer.png">
 </p>
 
+- **Project visualization:** 
 
 ### Overview
 
@@ -12,20 +13,20 @@ Cancer is one of the leading cause of death worldwide, responsible for nearly on
 The purpose of this project is to develop an interactive tool for cancer diagnosis classification by implementing a pipeline using a Neural Network model (MLP Classifier) and a Machine Learning model (XGBoost). The project includes an API using the FastAPI and a Streamlit interface, allowing the users to input their features and receive real-time classification result. On the Streamlit interface the user can choose between both models, input his data and get the results through an image message showing if has less or high likelihood of cancer and the importance of preventing cancer, since early diagnosis are really important in effectively managing and treating cancer, increasing the chances of successful outcomes.
 
 - **Project:**
-  https://github.com/raquelcolares/Cancer_Classification/blob/main/Cancer_Prediction.ipynb
+  https://github.com/raquelcolares/Cancer_Classification/tree/main/notebook
 
 - **Dataset:**
-  https://github.com/raquelcolares/Cancer_Classification/blob/main/The_Cancer_data_1500_V2.csv
+  https://github.com/raquelcolares/Cancer_Classification/tree/main/dataset
 
 - **FastAPI:**
-  https://github.com/raquelcolares/Cancer_Classification/blob/main/cancer-api.py
+  
 
 The api can be seen on the link above and also accessing by the following command line on the Anaconda prompt:
 
 `fastapi dev cancer-api.py`
 
 - **Streamlit code:**
-  https://github.com/raquelcolares/Cancer_Classification/blob/main/cancer-app.py
+
 
 The visualization can be seen on the link above and also accessing by the following command line on the Anaconda prompt:
 

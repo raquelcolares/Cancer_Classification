@@ -6,12 +6,10 @@ import time
 GENDERS = {0: "Male",
            1: "Female"}
 
-YES_NO = {0: "No",
-          1: "Yes"}
-
 RISK = {0: "Low",
         1: "Medium",
         2: "High"}
+
 
 def main():
     st.title(f":blue[Cancer Prediction] 🩺")
@@ -23,12 +21,10 @@ def main():
         age = st.slider("**Age**", value=51, min_value=20, max_value=80, step=1)
         gender = st.selectbox("**Gender**", options=GENDERS.keys(), format_func=lambda x: GENDERS[x])
         bmi = st.slider("**BMI**", value=27.5, min_value=15.0, max_value=40.0, step=0.5)
-        # Smoking = st.selectbox("**Smoking**", options=YES_NO.keys(), format_func=lambda x: YES_NO[x])
         smoking = int(st.toggle("**Smoking**"))
         genetic_risk = st.selectbox("**Genetic Risk**", options=RISK.keys(), format_func=lambda x: RISK[x])
         physical_activity = st.slider("**Physical Activity h/week**", value=0.0, min_value=0.0, max_value=10.0, step=0.1)
         alcohol_intake = st.slider("**Alcohol units consumed per week**", value=0.0, min_value=0.0, max_value=5.0, step=0.1)
-        #CancerHistory = st.selectbox("**Cancer History**", options=YES_NO.keys(), format_func=lambda x: YES_NO[x])
         cancer_history = int(st.toggle("**Cancer History**"))
         classify = st.button("**Classify**")
 
@@ -64,7 +60,7 @@ if __name__ == "__main__":
         menu_items={
             'Get Help': 'https://github.com/raquelcolares',
             'Report a bug': "https://github.com/raquelcolares",
-            'About': "# Cancer Prediction - Neural Network and Machine Learning"
+            'About': "# Cancer Prediction - MLPClassifier and XGBoost"
             }
     )
     st.sidebar.markdown("""
