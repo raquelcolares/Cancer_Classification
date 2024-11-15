@@ -5,14 +5,16 @@
 </p>
 
 
-- **Project visualization:** https://cancer-classification.streamlit.app/
-
-
 ### Overview
 
 Cancer is one of the leading cause of death worldwide, responsible for nearly one in six deaths, and impacting many families around the globe. In 2022, approximately 20 million new cases of cancer were diagnosed worldwide, and 9.7 million people succumbed to the disease.
 
 The purpose of this project is to develop an interactive tool for cancer diagnosis classification by implementing a pipeline using a Neural Network model (MLP Classifier) and a Machine Learning model (XGBoost). The project includes an API using the FastAPI and a Streamlit interface, allowing the users to input their features and receive real-time classification result. On the Streamlit interface the user can choose between both models, input his data and get the results through an image message showing if has less or high likelihood of cancer and the importance of preventing cancer, since early diagnosis are really important in effectively managing and treating cancer, increasing the chances of successful outcomes.
+
+- **Project visualization:** https://cancer-classification.streamlit.app/
+The streamlit can be seen on the link above and also accessing by the following command line on the Anaconda prompt:
+
+`streamlit run cancer-app.py`
 
 - **Project:**
   https://github.com/raquelcolares/Cancer_Classification/tree/main/notebook
@@ -30,9 +32,7 @@ The api can be seen on the link above and also accessing by the following comman
 - **Streamlit code:**
 https://github.com/raquelcolares/Cancer_Classification/blob/main/streamlit/cancer-app.py
 
-The visualization can be seen on the link above and also accessing by the following command line on the Anaconda prompt:
 
-`streamlit run cancer-app.py`
   
 
 -------
