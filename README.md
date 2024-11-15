@@ -1,6 +1,8 @@
 # Cancer Prediction
 
-
+<p align="center">
+    <img width="400" src="https://github.com/raquelcolares/Cancer_Classification/blob/main/cancer.png">
+</p>
 
 
 ### Overview
@@ -17,6 +19,10 @@ The purpose of this project is to develop an interactive tool for cancer diagnos
 
 - **FastAPI:**
   https://github.com/raquelcolares/Cancer_Classification/blob/main/cancer-api.py
+
+The api can be seen on the link above and also accessing by the following command line on the Anaconda prompt:
+
+`fastapi dev cancer-api.py`
 
 - **Streamlit code:**
   https://github.com/raquelcolares/Cancer_Classification/blob/main/cancer-app.py
