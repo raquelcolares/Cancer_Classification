@@ -30,7 +30,7 @@ def main():
 
 
     if classify:
-        url = f"http://127.0.0.1:8000/cancer?"
+        url = f"https://cancer-q8uz.onrender.com/cancer?"
         url += f"age={age}&gender={gender}&bmi{bmi}&smoking{smoking}"
         url += f"&genetic_risk={genetic_risk}&physical_activity={physical_activity}"
         url += f"&alcohol_intake={alcohol_intake}&cancer_history={cancer_history}&model_type={model_type}"
