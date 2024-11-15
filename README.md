@@ -4,7 +4,9 @@
     <img width="400" src="https://github.com/raquelcolares/Cancer_Classification/blob/main/cancer.png">
 </p>
 
-- **Project visualization:** 
+
+- **Project visualization:** https://cancer-classification.streamlit.app/
+
 
 ### Overview
 
@@ -19,14 +21,14 @@ The purpose of this project is to develop an interactive tool for cancer diagnos
   https://github.com/raquelcolares/Cancer_Classification/tree/main/dataset
 
 - **FastAPI:**
-  
+https://github.com/raquelcolares/Cancer_Classification/blob/main/cancer-api.py  
 
 The api can be seen on the link above and also accessing by the following command line on the Anaconda prompt:
 
 `fastapi dev cancer-api.py`
 
 - **Streamlit code:**
-
+https://github.com/raquelcolares/Cancer_Classification/blob/main/streamlit/cancer-app.py
 
 The visualization can be seen on the link above and also accessing by the following command line on the Anaconda prompt:
 
